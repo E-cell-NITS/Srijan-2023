@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "title": "1",
+    "img": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1677757180/EventHero1_mdh3or.png",
+    "event-title": "IPL Auction",
+    "head-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "reg-link": "https://www.google.com",
+    "stage_timeline": [
+      {
+        "stage_id": 1,
+        "stage1_venue": "NEW GALLERY",
+        "stage2_venue": "NEW GALLERY",
+        "stage1_datetime": "6PM, 4th April",
+        "stage2_datetime": "6PM, 4th April"
+      }
+    ],
+    "content": {
+      "overview": [
+        "'It's not just about ideas, it's about making the ideas happen.'",
+        "Innovation is the new way of life for most entrepreneurs in an ever more competitive and global economy. Great ideas result in great word of honour paving the way to success. In realization to this vision the fraternity of E-cell NIT Silchar is elated to announce the arrangement of a pitch competition to be held as a part of Srijan 3.0 for the budding entrepreneurs."
+      ],
+      "outcome": [
+        "Aiming to provide the right stage to showcase the business ideas and models, creating potentiality of early-stage startups help ignite the enthusiastic minds. To evaluate their plan in a risk-free environment by panel of judges would bridge the gap between ideas and reality of an enterprise.",
+        "The competition is open for all. Pitch your plans."
+      ],
+      "guidelines": [
+        "-> You can participate individually or in a team of a maximum of 4 members.",
+        "-> Please make submission in the link below.",
+        "The judges and the date for the final pitching round will be revealed soon!"
+      ],
+      "sublink": "https://www.google.com",
+      "stage1": [
+        {
+          "stage_id": "stage_1",
+          "stage_name": "Stage 1 (Online Screening)",
+          "stage_rules": [
+            "Interested teams should submit a PPT about their prospective business plan/idea (in not more than 20 slides).",
+            "The PPT should highlight the following points- Problem, Solution,  Market Size, Market analysis (TAM, SAM, SOM), Competition, traction (if you have any), Business model, Timing (why is it the right time to go ahead with the idea), team background, financial projections (if you have any), product demo (if possible), raise amount. Try to keep the ppt as simple and sleek as possible. Brevity will be appreciated.",
+            "Please find all the resources to creating a good pitch deck in the link below."
+          ],
+          "decklink": "https://www.google.com"
+        }
+      ],
+      "stage2": [
+        {
+          "stage_id": "stage_2",
+          "stage_name": "Stage 2 (Pitching)",
+          "stage_content": ["", ""],
+          "stage_rules": [
+            "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
+            "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "1",
+    "img": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1677757180/EventHero1_mdh3or.png",
+    "event-title": "Tech Nerds",
+    "head-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "reg-link": "https://www.google.com",
+    "stage_timeline": [
+      {
+        "stage_id": 1,
+        "stage1_venue": "NEW GALLERY",
+        "stage2_venue": "NEW GALLERY",
+        "stage1_datetime": "6PM, 4th April",
+        "stage2_datetime": "6PM, 4th April"
+      }
+    ],
+    "content": {
+      "overview": [
+        "'It's not just about ideas, it's about making the ideas happen.'",
+        "Innovation is the new way of life for most entrepreneurs in an ever more competitive and global economy. Great ideas result in great word of honour paving the way to success. In realization to this vision the fraternity of E-cell NIT Silchar is elated to announce the arrangement of a pitch competition to be held as a part of Srijan 3.0 for the budding entrepreneurs."
+      ],
+      "outcome": [
+        "Aiming to provide the right stage to showcase the business ideas and models, creating potentiality of early-stage startups help ignite the enthusiastic minds. To evaluate their plan in a risk-free environment by panel of judges would bridge the gap between ideas and reality of an enterprise.",
+        "The competition is open for all. Pitch your plans."
+      ],
+      "guidelines": [
+        "-> You can participate individually or in a team of a maximum of 4 members.",
+        "-> Please make submission in the link below.",
+        "The judges and the date for the final pitching round will be revealed soon!"
+      ],
+      "sublink": "https://www.google.com",
+      "stage1": [
+        {
+          "stage_id": "stage_1",
+          "stage_name": "Stage 1 (Online Screening)",
+          "stage_rules": [
+            "Interested teams should submit a PPT about their prospective business plan/idea (in not more than 20 slides).",
+            "The PPT should highlight the following points- Problem, Solution,  Market Size, Market analysis (TAM, SAM, SOM), Competition, traction (if you have any), Business model, Timing (why is it the right time to go ahead with the idea), team background, financial projections (if you have any), product demo (if possible), raise amount. Try to keep the ppt as simple and sleek as possible. Brevity will be appreciated.",
+            "Please find all the resources to creating a good pitch deck in the link below."
+          ],
+          "decklink": "https://www.google.com"
+        }
+      ],
+      "stage2": [
+        {
+          "stage_id": "stage_2",
+          "stage_name": "Stage 2 (Pitching)",
+          "stage_content": ["", ""],
+          "stage_rules": [
+            "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
+            "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "1",
+    "img": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1677757180/EventHero1_mdh3or.png",
+    "event-title": "Outwit the Borad Room",
+    "head-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "reg-link": "https://www.google.com",
+    "stage_timeline": [
+      {
+        "stage_id": 1,
+        "stage1_venue": "NEW GALLERY",
+        "stage2_venue": "NEW GALLERY",
+        "stage1_datetime": "6PM, 4th April",
+        "stage2_datetime": "6PM, 4th April"
+      }
+    ],
+    "content": {
+      "overview": [
+        "'It's not just about ideas, it's about making the ideas happen.'",
+        "Innovation is the new way of life for most entrepreneurs in an ever more competitive and global economy. Great ideas result in great word of honour paving the way to success. In realization to this vision the fraternity of E-cell NIT Silchar is elated to announce the arrangement of a pitch competition to be held as a part of Srijan 3.0 for the budding entrepreneurs."
+      ],
+      "outcome": [
+        "Aiming to provide the right stage to showcase the business ideas and models, creating potentiality of early-stage startups help ignite the enthusiastic minds. To evaluate their plan in a risk-free environment by panel of judges would bridge the gap between ideas and reality of an enterprise.",
+        "The competition is open for all. Pitch your plans."
+      ],
+      "guidelines": [
+        "-> You can participate individually or in a team of a maximum of 4 members.",
+        "-> Please make submission in the link below.",
+        "The judges and the date for the final pitching round will be revealed soon!"
+      ],
+      "sublink": "https://www.google.com",
+      "stage1": [
+        {
+          "stage_id": "stage_1",
+          "stage_name": "Stage 1 (Online Screening)",
+          "stage_rules": [
+            "Interested teams should submit a PPT about their prospective business plan/idea (in not more than 20 slides).",
+            "The PPT should highlight the following points- Problem, Solution,  Market Size, Market analysis (TAM, SAM, SOM), Competition, traction (if you have any), Business model, Timing (why is it the right time to go ahead with the idea), team background, financial projections (if you have any), product demo (if possible), raise amount. Try to keep the ppt as simple and sleek as possible. Brevity will be appreciated.",
+            "Please find all the resources to creating a good pitch deck in the link below."
+          ],
+          "decklink": "https://www.google.com"
+        }
+      ],
+      "stage2": [
+        {
+          "stage_id": "stage_2",
+          "stage_name": "Stage 2 (Pitching)",
+          "stage_content": ["", ""],
+          "stage_rules": [
+            "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
+            "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "1",
+    "img": "https://res.cloudinary.com/dnvhl9pru/image/upload/v1677757180/EventHero1_mdh3or.png",
+    "event-title": "Start-Up Expo",
+    "head-content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "reg-link": "https://www.google.com",
+    "stage_timeline": [
+      {
+        "stage_id": 1,
+        "stage1_venue": "NEW GALLERY",
+        "stage2_venue": "NEW GALLERY",
+        "stage1_datetime": "6PM, 4th April",
+        "stage2_datetime": "6PM, 4th April"
+      }
+    ],
+    "content": {
+      "overview": [
+        "'It's not just about ideas, it's about making the ideas happen.'",
+        "Innovation is the new way of life for most entrepreneurs in an ever more competitive and global economy. Great ideas result in great word of honour paving the way to success. In realization to this vision the fraternity of E-cell NIT Silchar is elated to announce the arrangement of a pitch competition to be held as a part of Srijan 3.0 for the budding entrepreneurs."
+      ],
+      "outcome": [
+        "Aiming to provide the right stage to showcase the business ideas and models, creating potentiality of early-stage startups help ignite the enthusiastic minds. To evaluate their plan in a risk-free environment by panel of judges would bridge the gap between ideas and reality of an enterprise.",
+        "The competition is open for all. Pitch your plans."
+      ],
+      "guidelines": [
+        "-> You can participate individually or in a team of a maximum of 4 members.",
+        "-> Please make submission in the link below.",
+        "The judges and the date for the final pitching round will be revealed soon!"
+      ],
+      "sublink": "https://www.google.com",
+      "stage1": [
+        {
+          "stage_id": "stage_1",
+          "stage_name": "Stage 1 (Online Screening)",
+          "stage_rules": [
+            "Interested teams should submit a PPT about their prospective business plan/idea (in not more than 20 slides).",
+            "The PPT should highlight the following points- Problem, Solution,  Market Size, Market analysis (TAM, SAM, SOM), Competition, traction (if you have any), Business model, Timing (why is it the right time to go ahead with the idea), team background, financial projections (if you have any), product demo (if possible), raise amount. Try to keep the ppt as simple and sleek as possible. Brevity will be appreciated.",
+            "Please find all the resources to creating a good pitch deck in the link below."
+          ],
+          "decklink": "https://www.google.com"
+        }
+      ],
+      "stage2": [
+        {
+          "stage_id": "stage_2",
+          "stage_name": "Stage 2 (Pitching)",
+          "stage_content": ["", ""],
+          "stage_rules": [
+            "The shortlisted teams will have to pitch their idea in front of an expert investor (or panel).",
+            "Time Limit- 8 mins (6 mins pitch + 2 mins QnA)"
+          ]
+        }
+      ]
+    }
+  }
+]

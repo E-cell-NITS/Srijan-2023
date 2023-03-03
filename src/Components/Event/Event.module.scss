@@ -1,0 +1,147 @@
+.event {
+  display: flex;
+  justify-content: center;
+  background: var(--srijan4-gradient-4);
+  color: white;
+  margin-bottom: 1rem;
+}
+.left {
+  width: 70%;
+  margin: 1.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+.btn {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 10rem;
+  background: var(--srijan4-gradient-10);
+  cursor: pointer;
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  border: none;
+}
+.right {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.img img {
+  height: 30vw;
+  width: 50vw;
+}
+.hero {
+  display: flex;
+}
+.heroleft {
+  width: 60%;
+  padding: 1rem;
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+}
+.heroright {
+  width: 40%;
+  padding: 1rem;
+}
+.stageTimeline {
+  border-radius: 10px;
+  background: var(--srijan4-gradient-10);
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+.content h1 {
+  background: var(--srijan4-gradient-10);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: 700;
+  text-align: left !important;
+}
+.head1 {
+  color: var(--srijan4-dark-pink) !important;
+}
+.overview {
+  margin-bottom: 2rem;
+  p {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .img img {
+    height: 30vw;
+    width: 50vw;
+  }
+  .stageTimeline {
+    p {
+      font-size: 0.75rem;
+    }
+  }
+  .content {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+@media only screen and (max-width: 805px) {
+  .heroleft {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  .stageTimeline {
+    p {
+      font-size: 0.7rem;
+    }
+  }
+  .content {
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
+@media only screen and (max-width: 750px) {
+  .right {
+    display: none;
+  }
+  .left {
+    width: 100%;
+  }
+  .img img {
+    width: 50vw;
+    height: 30vw;
+  }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./EventCard.module.scss";
 import Data from "../../Data/EventCardData.json";
 const EventCard = (props) => {
@@ -30,7 +31,9 @@ const EventCard = (props) => {
                   <p>{item.content}</p>
                   <div className={styles.buttons}>
                     <button className={styles.register}>Register</button>
-                    <button className={styles.details}>Details</button>
+                    <Link to={`/event/${item.id}`}>
+                      <button className={styles.details}>Details</button>
+                    </Link>
                   </div>
                 </div>
               </div>

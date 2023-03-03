@@ -10,6 +10,7 @@ import Sponsors from "./Sponsors/Sponsors";
 import Sidelinks from "./Sidelinks/Sidelinks";
 import GalleryCarousel from "./GalleryCarousel/GalleryCarousel";
 import EventCard from "./EventCard/EventCard";
+import Event from "./Event/Event";
 
 export {
   Button,
@@ -24,4 +25,5 @@ export {
   About,
   Sponsors,
   Sidelinks,
+  Event,
 };
