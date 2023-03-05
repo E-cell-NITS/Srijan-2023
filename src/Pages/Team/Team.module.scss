@@ -1,0 +1,128 @@
+@mixin flex-dispay($direction, $content, $item) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $content;
+  align-items: $item;
+}
+
+.teamContainer {
+  @include flex-dispay(column, start, center);
+  width: 100%;
+  min-height: 100vh;
+  padding: 5% 5% 10%;
+  background: var(--srijan4-team-gradient);
+
+  .teamHeader {
+    @include flex-dispay(row, space-between, center);
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+
+    .Our {
+      color: var(--srijan4-white);
+    }
+
+    .Team {
+      background: var(--srijan4-gradient-11);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 0.5rem;
+    }
+  }
+
+  .chiefPatron {
+    width: 100%;
+    @include flex-dispay(column, space-around, center);
+    .header {
+      font-size: 1.2rem;
+      color: var(--srijan4-white);
+      margin-bottom: 2.5rem;
+    }
+
+    .Cards {
+      width: 100%;
+      @include flex-dispay(row, center, center);
+      flex-wrap: wrap;
+      margin-bottom: 6rem;
+    }
+  }
+
+  .Patrons {
+    width: 100%;
+    @include flex-dispay(column, space-around, center);
+    .header {
+      font-size: 1.2rem;
+      color: var(--srijan4-white);
+      margin-bottom: 2.5rem;
+    }
+
+    .Cards {
+      width: 100%;
+      @include flex-dispay(row, center, center);
+      flex-wrap: wrap;
+      margin-bottom: 6rem;
+    }
+  }
+
+  .Developers {
+    width: 100%;
+    @include flex-dispay(column, space-around, center);
+    .header {
+      font-size: 1.2rem;
+      background: var(--srijan4-gradient-11);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 2.5rem;
+    }
+
+    .Cards {
+      width: 100%;
+      @include flex-dispay(row, center, center);
+      flex-wrap: wrap;
+      margin-bottom: 6rem;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .teamContainer {
+    .teamHeader {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .chiefPatron {
+      .header {
+        font-size: 0.9rem;
+        margin-bottom: 1.4rem;
+      }
+
+      .Cards {
+        margin-bottom: 4rem;
+      }
+    }
+
+    .Patrons {
+      .header {
+        font-size: 0.9rem;
+        margin-bottom: 1.4rem;
+      }
+
+      .Cards {
+        margin-bottom: 4rem;
+      }
+    }
+
+    .Developers {
+      .header {
+        font-size: 0.9rem;
+        margin-bottom: 1.4rem;
+      }
+
+      .Cards {
+        margin-bottom: 4rem;
+      }
+    }
+  }
+}

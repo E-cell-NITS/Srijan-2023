@@ -1,0 +1,88 @@
+.MySwiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  height: 85vh;
+}
+
+.sliderControler {
+  position: absolute;
+  width: 100%;
+  height: 10px; // in px to fit inside box and have negligible existence
+  z-index: 1;
+  align-items: center;
+  display: flex;
+}
+
+.Box {
+  height: 100%;
+  filter: grayscale(100%);
+  transition: all 1s;
+
+  &:hover {
+    filter: none;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.swiperButtonPrev {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  position: absolute;
+  left: 0;
+  width: 15vmin;
+  background-color: var(--gallery-controller);
+}
+
+.swiperButtonNext {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+
+  height: 70vh;
+  position: absolute;
+  right: 0%;
+  width: 15vmin;
+  background-color: var(--gallery-controller);
+}
+
+.arrows {
+  height: 30%;
+  width: 30%;
+  object-fit: contain;
+}
+
+.nxtarrow {
+  font-size: 4.2vw;
+}
+
+.bckarrow {
+  font-size: 4.2vw;
+}
+
+.swiper-slide-next {
+  transition: 1s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .MySwiper {
+    height: 50vh;
+  }
+
+  .swiperButtonNext {
+    display: none;
+  }
+  .swiperButtonPrev {
+    display: none;
+  }
+}

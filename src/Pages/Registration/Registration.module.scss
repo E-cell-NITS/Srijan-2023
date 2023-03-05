@@ -1,0 +1,184 @@
+.registrationcontainer {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 1em;
+  display: flex;
+  background-color: var(--srijan-main-theme);
+
+  .leftcontainer {
+    width: 8%;
+    position: relative;
+  }
+  .rightcontainer {
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    overflow: auto;
+    white-space: pre-line;
+    .coverpicontainer {
+      width: 45%;
+      .coverimgcontainer {
+        height: 21rem;
+        width: 20rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .descriptioncontainer {
+        width: 19rem;
+        overflow-wrap: break-word;
+        .descheading {
+          font-weight: var(--heading-3-text-weight);
+          font-size: 1.5em;
+          color: var(--srijan-white-1);
+          margin: 0.7em 0;
+        }
+        .description {
+          width: 100%;
+          min-height: 1.5em;
+          font-size: 0.8em;
+          color: var(--srijan-white-1);
+          border: 1px solid var(--srijan-white-1);
+          border-radius: 0.8em;
+          padding: 0.7em 0.5em;
+        }
+      }
+    }
+    .formcontainer {
+      width: 65%;
+      .formheading {
+        color: var(--srijan-white-1);
+        font-weight: var(--heading-3-text-weight);
+        font-size: 1.3em;
+      }
+      .form {
+        width: 100%;
+        height: auto;
+      }
+      .form2 {
+        margin-top: 1em;
+        color: var(--srijan-gray-1);
+        font-weight: var(--heading-1-text-weight);
+        font-size: 1.1em;
+      }
+      .addDelete {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        .addmember {
+          margin: 1em 1em 0.5em 0;
+          button {
+            background: transparent;
+            color: var(--srijan-white-1);
+            width: 13em;
+            height: 2.5em;
+            border: 1px solid var(--srijan-white-1);
+            border-radius: 1.2em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s;
+            .addicon {
+              margin-right: 0.5em;
+              font-size: 1.3em;
+            }
+          }
+          button:hover {
+            background-color: var(--srijan-white-1);
+            color: var(--srijan-main-theme);
+            font-weight: var(--heading-1-text-weight);
+            .addicon {
+              color: var(--srijan-main-theme);
+            }
+          }
+        }
+        .deletemember {
+          margin: 1em 0 0.5em 0;
+          button {
+            background: transparent;
+            color: var(--srijan4-dark-pink);
+            width: 13em;
+            height: 2.5em;
+            border: 1px solid var(--srijan4-dark-pink);
+            border-radius: 1.2em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s;
+            .deleteicon {
+              margin-right: 0.5em;
+              color: var(--srijan4-dark-pink);
+              font-size: 1.3em;
+            }
+          }
+          button:hover {
+            background-color: var(--srijan4-dark-pink);
+            color: var(--srijan-main-theme);
+            font-weight: var(--heading-1-text-weight);
+            .deleteicon {
+              color: var(--srijan-main-theme);
+            }
+          }
+        }
+      }
+      .submit {
+        margin-top: 2em;
+        button {
+          background: var(--srijan4-gradient-1);
+          width: 13em;
+          height: 2.7em;
+          color: var(--srijan-white-1);
+          margin-bottom: 1em;
+          border-radius: 1.2em;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .rightcontainer::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .leftcontainer {
+    width: 22% !important;
+  }
+  .rightcontainer {
+    justify-content: flex-start;
+    .coverpicontainer {
+      display: none;
+    }
+    .formcontainer {
+      width: 100% !important;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .leftcontainer {
+    width: 22% !important;
+  }
+  .rightcontainer {
+    width: 88%;
+    .formcontainer {
+      width: 90% !important;
+    }
+  }
+}
+
+@media (max-width: 359px) {
+  .leftcontainer {
+    width: 18% !important;
+  }
+  .rightcontainer {
+    .formcontainer {
+      width: 85% !important;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.iconcontainer {
+  height: 20em;
+  position: fixed;
+  left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  top: 7rem;
+  .iconimgcont {
+    .icon {
+      font-size: 2.5em;
+      color: var(--srijan-white-1);
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .iconcontainer {
+    .iconimgcont {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .iconcontainer {
+    .iconimgcont {
+      width: 60%;
+    }
+  }
+}
+
+@media (max-width: 359px) {
+  .iconcontainer {
+    .iconimgcont {
+      width: 60%;
+    }
+  }
+}

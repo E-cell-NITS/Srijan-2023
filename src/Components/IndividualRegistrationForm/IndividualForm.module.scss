@@ -1,0 +1,68 @@
+.formelementcontainer {
+  width: 80%;
+  height: 25em;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .inputcontainer {
+    width: 80%;
+    .input {
+      width: 100%;
+      height: 2em;
+      padding: 0.7em 0;
+      background-color: transparent;
+      color: var(--srijan-white-1);
+      outline: none;
+      border: none;
+      border-bottom: 0.1em solid var(--srijan4-dark-blue);
+      border-image: var(--srijan4-gradient-8);
+      border-image-slice: 1;
+      font-family: var(--srijan4-font-3);
+    }
+
+    .input::placeholder {
+      color: var(--srijan-white-1);
+    }
+    .input::-ms-input-placeholder {
+      color: var(--srijan-white-1);
+    }
+
+    .select {
+      width: 30%;
+      height: 2.7em;
+      padding: 0.7em 0;
+      background-color: var(--srijan-main-theme);
+      color: var(--srijan-white-1);
+      outline: none;
+      border: none;
+      border-bottom: 0.1em solid var(--srijan4-dark-blue);
+      border-image: var(--srijan4-gradient-8);
+      border-image-slice: 1;
+      font-family: var(--srijan4-font-4);
+    }
+  }
+  .formendline {
+    width: 90%;
+    height: 0.05em;
+    margin-top: 1em;
+    background-color: var(--srijan-white-1);
+  }
+}
+
+@media (max-width: 1000px) {
+  .formelementcontainer {
+    width: 100%;
+    align-items: center;
+    .inputcontainer {
+      width: 100%;
+      .input {
+        width: 70%;
+      }
+    }
+    .formendline {
+      margin-right: auto;
+      width: 80%;
+    }
+  }
+}

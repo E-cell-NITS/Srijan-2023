@@ -1,0 +1,161 @@
+.notfnd {
+  height: calc(100vh - var(--srijan4-navbar-height));
+  background: var(--srijan4-gradient-12);
+  position: relative;
+  width: 100%;
+}
+
+.imgtopnt {
+  object-fit: contain;
+  position: absolute;
+  width: 30%;
+  top: 0%;
+  left: 0%;
+  pointer-events: none;
+}
+
+.nottexts {
+  text-align: center;
+
+  h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    font-size: 3vw;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+  }
+  h2 {
+    font-size: 2vw;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    font-family: var(--srijan4-font-4);
+  }
+}
+
+.notfndimg {
+  img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    width: 28rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+  }
+}
+
+.tohome {
+  padding-top: 10%;
+  button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    border: 3px solid white;
+    padding: 1vw 3vw;
+    color: white;
+    font-weight: 600;
+    font-family: var(--srijan4-font-4);
+    background: var(--srijan4-gradient-13);
+    font-size: 1.6vw;
+    border-radius: 5vw;
+    cursor: pointer;
+  }
+}
+
+.bcklogo {
+  width: 1.8vw;
+  margin-right: 0.75vw;
+}
+
+.rightimgnt {
+  img {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 20%;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nottexts {
+    h1 {
+      font-size: 4.5vw;
+    }
+    h2 {
+      font-size: 4.5vw;
+      margin-top: 4vw;
+    }
+  }
+
+  .notfndimg {
+    img {
+      min-width: 33rem;
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .notfnd {
+    padding-top: 14vw;
+  }
+
+  .nottexts {
+    h1 {
+      font-size: 5vw;
+    }
+    h2 {
+      font-size: 4.5vw;
+      margin-top: 4vw;
+    }
+  }
+
+  .notfndimg {
+    img {
+      min-width: 20rem !important;
+      width: 20rem !important;
+    }
+  }
+
+  .tohome {
+    margin-top: 6vw;
+    button {
+      border: 1px solid white;
+      padding: 3vw 8vw;
+      margin-bottom: 15vw;
+      font-size: 3vw;
+      border-radius: 10vw;
+    }
+  }
+
+  .bcklogo {
+    width: 2.8vw;
+    margin-right: 1.2vw;
+    font-weight: 900;
+  }
+
+  .rightimgnt {
+    img {
+      width: 30%;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .notfndimg {
+    img {
+      min-width: 100vw !important;
+      width: 100vw !important;
+    }
+  }
+}

@@ -1,0 +1,172 @@
+.containerContact {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8.375rem;
+  text-align: center;
+}
+
+.contactHeader,
+.infoGrad {
+  font-family: var(--srijan4-font-2);
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 700;
+}
+
+.infoGrad {
+  background: var(--srijan4-gradient-6);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.credInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4.5rem;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-align: center;
+}
+.credItems,
+.credItemsphone,
+.credItemsmobile {
+  width: 16.5rem;
+  margin-right: 2.0625rem;
+  margin-left: 2.0625rem;
+  font-family: var(--srijan4-font-2);
+  font-weight: bold;
+}
+.credText {
+  font-weight: 900;
+  display: block;
+  margin-top: 0.5rem;
+}
+.credItemsmobile {
+  display: none;
+}
+
+.containerFooter {
+  margin-top: 6.5rem;
+  background-color: var(--srijan4-dark-grey);
+}
+.footerDesc {
+  max-width: 60.625rem;
+  margin: auto;
+  padding-top: 6.1875rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 2.4375rem;
+  text-align: center;
+  color: var(--srijan4-light-grey);
+}
+
+.facebookIcon {
+  width: 2.91rem;
+  height: 2.91rem;
+  color: var(--srijan4-white);
+  margin-right: 4.1475rem;
+  margin-left: 4.1475rem;
+}
+.instaIcon {
+  width: 2.91rem;
+  height: 2.91rem;
+  color: var(--srijan4-white);
+  margin-right: 4.1475rem;
+}
+.linkedinIcon {
+  width: 2.91rem;
+  height: 2.91rem;
+  color: var(--srijan4-white);
+  margin-right: 4.1475rem;
+}
+.iconSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 5.4375rem;
+  padding-bottom: 9.25rem;
+}
+
+@media screen and (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .containerContact {
+    padding-top: 0;
+  }
+  .contactHeader,
+  .infoGrad {
+    padding-top: 0;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .credInfo {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: auto;
+  }
+  .credItemsmobile {
+    display: inline-block;
+  }
+  .credItems,
+  .credItemsmobile {
+    font-family: var(--srijan4-font-1);
+    font-size: 0.625rem;
+    line-height: 0.9375rem;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 1.2rem;
+    max-width: 40vw;
+  }
+  .credText {
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+    //max-width: 7.4375rem;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 0.5rem;
+  }
+  .credItemsphone {
+    display: none;
+  }
+
+  .footerDesc {
+    font-size: 0.75rem;
+    line-height: 164.22%;
+    max-width: 80vw;
+    font-weight: 900;
+    margin: auto;
+    padding-top: 3.75rem;
+    margin-bottom: 3.85rem;
+  }
+  .containerFooter {
+    margin-top: 0;
+  }
+  .facebookIcon {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 6.25rem;
+    margin-right: 0;
+  }
+  .instaIcon {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0;
+    margin-right: 0.5rem;
+  }
+  .linkedinIcon {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 5.875rem;
+  }
+  .iconSection {
+    padding-bottom: 3.125rem;
+    gap: 1rem;
+  }
+}

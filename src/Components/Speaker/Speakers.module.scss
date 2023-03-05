@@ -1,0 +1,171 @@
+.spekrstop {
+  text-align: center;
+  h1 {
+    font-size: 3.3vw;
+    font-family: var(--srijan4-font-2);
+    font-weight: bold;
+    background: var(--srijan4-gradient-7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+.strtcpkrsmain {
+  margin: 5vw 0;
+  position: relative;
+}
+
+#speakershomemain {
+  background: rgba(21, 19, 26, 1);
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+.indicarocard {
+  background-color: var(--srijan4-white) !important;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 39px;
+  user-select: none;
+}
+
+.imgholder {
+  margin-left: 5%;
+  width: 30%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  img {
+    width: 100%;
+    background-position: 100% 50%;
+    background: url("/images/speaker-bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+}
+
+.spkrdesc {
+  margin-left: 5%;
+  margin-right: 0%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.spkrname {
+  background: rgba(0, 0, 0, 1);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: "Gilroy-Bold";
+  margin-top: 25%;
+  margin-bottom: 5%;
+  font-size: 3vw;
+}
+
+.detailsspkr {
+  background: rgba(0, 0, 0, 0.5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: var(--heading-1-text-weight);
+  font-family: var(--srijan4-font-1);
+  font-size: 1.6vw;
+  text-align: justify;
+  margin-bottom: 5%;
+  line-height: 1.6;
+}
+
+.nxtarrow {
+  font-size: 4.2vw;
+}
+
+.bckarrow {
+  font-size: 4.2vw;
+}
+
+#prevbtn:hover {
+  cursor: pointer;
+}
+
+#nextbtn:hover {
+  cursor: pointer;
+}
+
+#controler {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+}
+
+#btndivholder {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+}
+
+#paginationbtnsround {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .spekrstop {
+    h1 {
+      font-size: 6.3vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .spekrstop {
+    margin-bottom: 10vw;
+    h1 {
+      font-size: 8.3vw;
+    }
+  }
+
+  .indicarocard {
+    border-radius: 20px;
+    margin-bottom: 5vw;
+    // width: 70%;
+  }
+
+  .nxtarrow {
+    font-size: 8.2vw;
+  }
+
+  .bckarrow {
+    font-size: 8.2vw;
+  }
+
+  .spkrname {
+    font-size: 5.2vw;
+  }
+
+  .detailsspkr {
+    // line-height: 15.11px;
+    font-size: 2.52vw;
+    font-weight: 400;
+    margin-bottom: 5vw;
+  }
+
+  .imgholder {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #btndivholder {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
