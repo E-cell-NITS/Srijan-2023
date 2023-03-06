@@ -1,65 +1,85 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.buttons {
-  width: 100%;
-  font-size: 10px;
-
-  button {
-    padding: 2% 10%;
-    cursor: pointer;
-    color: white;
-    font: var(--srijan4-font-1);
-    margin: 3px;
-    background: linear-gradient(180.56deg, #0704b9 -22.26%, #b4015f 159.83%);
-    border: none;
-    border-radius: 20px;
-  }
-}
-
-.backHead {
-  font-size: 1rem;
-  margin: 0.2rem;
-  color: white;
-  border-bottom: 1px solid white;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-family: var(--srijan4-font-1);
-  font-weight: normal;
-  color: #444;
-  text-align: center;
-  margin: 2rem 0;
-}
-
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 80rem;
-}
-
-.cols {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 .col {
-  padding: 2%;
+  display: inline-block;
+  margin: 0;
+  width: 500px;
+  box-sizing: border-box;
+  padding: 10px;
   aspect-ratio: 107/124;
-  margin: 1rem;
+  font-size: 5rem;
   cursor: pointer;
+
+  .backHead {
+    font-size: 4vmin;
+    text-align: center;
+    padding: 4% 0;
+    margin: 0.2rem;
+    color: white;
+    font-family: var(--srijan4-font-1);
+    border-bottom: 1px solid white;
+
+    @media screen and (max-width: 500px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .backSide {
+    aspect-ratio: 107/124;
+    display: grid;
+    width: 100%;
+    text-align: justify;
+    grid-template-rows: 1fr 10fr 1fr;
+    justify-content: center;
+
+    .para {
+      font-size: 2vmin;
+
+      padding: 7% 10%;
+
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 17;
+
+      @media screen and (max-width: 500px) {
+        font-size: 4vmin;
+        padding: 6% 10%;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 11;
+        white-space: pre-wrap;
+      }
+
+      @media screen and (max-width: 800px) and (min-width: 500px) {
+        font-size: 4vmin;
+        padding: 8% 10%;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 12;
+        white-space: pre-wrap;
+      }
+    }
+
+    .buttons {
+      width: 100%;
+      font-size: 15px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 4%;
+
+      button {
+        padding: 2% 10%;
+        cursor: pointer;
+        color: white;
+        font: var(--srijan4-font-1);
+        margin: 2%;
+        background: linear-gradient(180.56deg, #0704b9 -22.26%, #b4015f 159.83%);
+        border: none;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
 }
 
 .container {
@@ -85,21 +105,22 @@ h1 {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   text-align: center;
-  min-height: 280px;
   height: 100%;
   border-radius: 30px;
+  aspect-ratio: 107/124;
   color: #fff;
-  font-size: 0.7rem;
 }
 
 .back {
   background: #cedce7;
+  aspect-ratio: 107/124;
   background: -webkit-linear-gradient(45deg, #02014c 0%, #010044 100%);
   background: -o-linear-gradient(45deg, #02014c 0%, #010044 100%);
   background: linear-gradient(45deg, #02014c 0%, #010044 100%);
 }
 
 .front:after {
+  aspect-ratio: 107/124;
   position: absolute;
   top: 0;
   left: 0;
@@ -139,13 +160,16 @@ h1 {
   position: absolute;
   left: 0;
   width: 100%;
-  padding: 2rem;
+  padding: 2%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: 1px solid transparent;
   -webkit-perspective: inherit;
   perspective: inherit;
   z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container .back {
@@ -200,23 +224,4 @@ h1 {
   color: rgba(255, 255, 255, 0.7);
   font-family: var(--srijan4-font-1);
   font-weight: 300;
-}
-
-@media screen and (max-width: 64rem) {
-  .col {
-    width: calc(33.333333% - 2rem);
-  }
-}
-
-@media screen and (max-width: 48rem) {
-  .col {
-    width: calc(50% - 2rem);
-  }
-}
-
-@media screen and (max-width: 32rem) {
-  .col {
-    width: 100%;
-    margin: 0 0 2rem 0;
-  }
 }
